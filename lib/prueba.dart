@@ -7,9 +7,12 @@ class Module2Test extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         color: Colors.green,
-        child: const Text(
-          'PRUEBA',
-          style: TextStyle(fontSize: 30),
+        child: const Center(
+          child: Text(
+            'MODULO 2',
+            style: TextStyle(fontSize: 30),
+            textAlign: TextAlign.center,
+          ),
         ));
   }
 }
